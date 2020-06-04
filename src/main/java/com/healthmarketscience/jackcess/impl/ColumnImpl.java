@@ -157,7 +157,7 @@ public class ColumnImpl implements Column, Comparable<ColumnImpl>, DateTimeConte
   static final byte NUMERIC_NEGATIVE_BYTE = (byte)0x80;
 
   /** the value for the "general" sort order */
-  private static final short GENERAL_SORT_ORDER_VALUE = 1033;
+  private static final short GENERAL_SORT_ORDER_VALUE = 3082;
 
   /**
    * the "general" text sort order, version (access 1997)
